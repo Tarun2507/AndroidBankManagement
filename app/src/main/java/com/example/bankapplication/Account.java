@@ -3,13 +3,14 @@ package com.example.bankapplication;
 public class Account {
     private String name;
     private String address;
+    private String email;
     private String phoneno;
     private String cardnumber;
     private String accounttype;
     private int pin;
     private String accountnumber;
     private double balance;
-    public Account(String name, String address, String phoneno, String cardnumber,String accounttype, int pin, String accountnumber, double balance) {
+    public Account(String name, String address,String email, String phoneno, String cardnumber,String accounttype, int pin, String accountnumber, double balance) {
         this.name = name;
         this.address = address;
         this.phoneno = phoneno;
@@ -18,6 +19,7 @@ public class Account {
         this.accountnumber = accountnumber;
         this.balance = balance;
         this.accounttype = accounttype;
+        this.email = email;
     }
 
     public String getName() {
@@ -82,5 +84,13 @@ public class Account {
 
     public void setAccounttype(String accounttype) {
         this.accounttype = accounttype;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
     }
 }

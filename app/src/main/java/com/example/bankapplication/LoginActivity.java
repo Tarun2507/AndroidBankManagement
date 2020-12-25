@@ -36,12 +36,12 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     public void fillData() {
-    accounts.add(new Account("Tarun Reddy","Avpride","7032052989","225567","savings",7842,"2255566677",4000));
-    accounts.add(new Account("Tarun Reddy","Avpride","7032052989","225567","chequing",7842,"2255566677",2000));
-    accounts.add(new Account("Surya Reddy","DSNR","443333221","10256","savings",7842,"2255566677",4500));
-    accounts.add(new Account("Surya Reddy","DSNR","443333221","10256","chequing",7842,"2255566677",2500));
-    accounts.add(new Account("Shashi Reddy","Nizampet","64433227","2255567","savings",7842,"2255566677",4300));
-    accounts.add(new Account("Shashi Reddy","Nizampet","64433227","2255567","chequing",7842,"2255566677",3000));
+    accounts.add(new Account("Tarun Reddy","Avpride","treddy80@gmail.com","7032052989","225567","savings",7842,"2255566677",4000));
+    accounts.add(new Account("Tarun Reddy","Avpride","treddy80@gmail.com","7032052989","225567","chequing",7842,"2255566677",2000));
+    accounts.add(new Account("Surya Reddy","DSNR","yedavellitarun80@gmail.com","443333221","10256","savings",7842,"2255566677",4500));
+    accounts.add(new Account("Surya Reddy","DSNR","yedavellitarun80@gmail.com","443333221","10256","chequing",7842,"2255566677",2500));
+    accounts.add(new Account("Shashi Reddy","Nizampet","tyedavel@gmail.com","64433227","2255567","savings",7842,"2255566677",4300));
+    accounts.add(new Account("Shashi Reddy","Nizampet","tyedavel@gmail.com","64433227","2255567","chequing",7842,"2255566677",3000));
     }
     public void validateUser() {
         int isValid = 0;

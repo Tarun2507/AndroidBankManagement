@@ -32,7 +32,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/amount2"
         android:layout_width="196dp"
         android:layout_height="69dp"
         android:layout_marginStart="19dp"
@@ -57,7 +57,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView21" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/email"
         android:layout_width="194dp"
         android:layout_height="51dp"
         android:layout_marginStart="30dp"
@@ -66,7 +66,7 @@
         android:ems="10"
         android:inputType="textPersonName"
         app:layout_constraintStart_toEndOf="@+id/textView22"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+        app:layout_constraintTop_toBottomOf="@+id/amount2" />
 
     <TextView
         android:id="@+id/textView23"
@@ -90,7 +90,7 @@
         android:ems="10"
         android:inputType="textPersonName"
         app:layout_constraintStart_toEndOf="@+id/textView23"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
+        app:layout_constraintTop_toBottomOf="@+id/email" />
 
     <TextView
         android:id="@+id/textView24"
@@ -105,7 +105,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView23" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName4"
+        android:id="@+id/message"
         android:layout_width="189dp"
         android:layout_height="53dp"
         android:layout_marginStart="15dp"
